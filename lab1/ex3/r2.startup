@@ -1,0 +1,5 @@
+ip a a 172.16.2.254/24 dev eth1
+ip a a 172.16.0.2/24 dev eth0
+ip r a default via 172.16.0.254
+ip r a 172.16.1.0/24 via 172.16.0.1
+echo nameserver 1.1.1.1 >> /etc/resolv.conf

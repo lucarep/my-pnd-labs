@@ -1,0 +1,8 @@
+# configuring temporary address
+sysctl -w net.ipv6.conf.eth0.addr_gen_mode=3
+sysctl -w net.ipv6.conf.eth0.use_tempaddr=1
+#configuring lifetime
+sysctl -w net.ipv6.conf.eth0.temp_prefered_lft=60
+sysctl -w net.ipv6.conf.eth0.temp_valid_lft=180
+ 
+ifup eth0

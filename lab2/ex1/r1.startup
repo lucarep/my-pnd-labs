@@ -1,0 +1,5 @@
+ip a a fe80::1/64 dev eth0
+ip a a fe80::1/64 dev eth1
+
+ip a a 2001:db8:cafe:1::1/64 dev eth0
+ip a a 2001:db8:cafe:2::1/64 dev eth1

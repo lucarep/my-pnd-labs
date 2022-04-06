@@ -1,0 +1,3 @@
+#check configuration, if 0 then ok
+sysctl net.ipv6.conf.eth0.addr_gen_mode
+ifup eth0

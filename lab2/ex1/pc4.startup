@@ -1,0 +1,2 @@
+ip a a 2001:db8:cafe:2::104/64 dev eth0
+ip r a default via fe80::1 dev eth0
